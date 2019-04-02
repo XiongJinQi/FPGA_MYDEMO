@@ -1,0 +1,13 @@
+//   XXXH
+// date:2018-11-15
+
+module uart_rx 
+#(
+	parameter CLK_FRE = 50, //MHz
+	parameter BUAD_RATE = 115200 // 波特率
+)
+(
+	input clk,
+	input rst,
+	
+)

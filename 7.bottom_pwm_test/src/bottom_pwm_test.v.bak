@@ -1,0 +1,29 @@
+/*************************************************************************
+// brief: top module 
+//	history: 1.0
+//	BY :
+// date: 
+/*************************************************************************/
+
+module bottom_pwm_test
+	(
+	input clk,
+	input rst_n,
+	input key_in,
+	output pwm_out
+	);
+
+parameter IDLE    = 0;
+parameter BUZZER  = 1;
+wire button_negedge;
+wire pwm_out;
+reg[31:0] period;
+reg[31:0] duty;
+
+reg[3:0] state;
+reg[31:0] timer;
+assign buzzer = ~(pwm_out & (state == BUZZER));//buzzer  low active
+	
+endmodule
+	
+	

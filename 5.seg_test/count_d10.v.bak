@@ -1,0 +1,54 @@
+
+/**************************************************/
+//by XXH
+//进位模块
+/**************************************************/
+
+module count_d10(
+		input clk,
+		input rst_n,
+		input en,
+		input clr,// count synchronous flag
+		output[3:0] data,
+		output cy
+);
+
+always@(posedge clk or negdege rst_n)
+begin
+	if(rst_n == 1'b0)
+		begin
+			data <= 4'b0;
+			cy <= 1'b0;
+		end
+	else if(clr == 1'b1) // enable clr
+		begin
+			data <= 4'b0;
+			cy <= 1'b0;
+		end
+	else if(en == 1'b1)  // enable en
+		begin
+			if(data == 4'd9)
+				begin
+				cy <= 1'b1;
+				data <= 4'd0;
+				end
+			else
+			begin
+				data <= data +4'd1;
+				cy <= 1'b0;
+			end
+		end
+	else
+		cy <= 1'b0;
+end		
+
+endmodle
+
+
+
+
+
+
+
+
+

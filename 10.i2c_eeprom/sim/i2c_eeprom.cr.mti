@@ -1,0 +1,123 @@
+E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_defines.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_defines.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_top.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_top.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module i2c_master_top
+
+Top level modules:
+	i2c_master_top
+
+} {} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_bit_ctrl.v {0 {vlog -work work -vopt {E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(15): Cannot find `include file "i2c_master_defines.v" in directories:
+    D:/modeltech64_10.1c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, D:/modeltech64_10.1c/uvm-1.1b/../verilog_src/uvm-1.1b/src
+-- Compiling module i2c_master_bit_ctrl
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(221): (vlog-2163) Macro `I2C_CMD_STOP is undefined.
+
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(221): near ";": syntax error, unexpected ';'
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(284): (vlog-2163) Macro `I2C_CMD_START is undefined.
+
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(284): near ":": syntax error, unexpected ':'
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(285): (vlog-2163) Macro `I2C_CMD_STOP is undefined.
+
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(286): (vlog-2163) Macro `I2C_CMD_WRITE is undefined.
+
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\src\i2c_master\i2c_master_bit_ctrl.v(287): (vlog-2163) Macro `I2C_CMD_READ is undefined.
+
+
+} {3.0 4.0 6.0 7.0 8.0 10.0 11.0 13.0 14.0 15.0 16.0 17.0} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/seg_scan.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/seg_scan.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module seg_scan
+
+Top level modules:
+	seg_scan
+
+} {} {}} E:/FPGA/my_demo/10.i2c_eeprom/sim/i2c_eeprom_tb.v {0 {vlog -work work -vopt {E:\FPGA\my_demo\10.i2c_eeprom\sim\i2c_eeprom_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\sim\i2c_eeprom_tb.v(5): (vlog-2163) Macro `timescal is undefined.
+
+** Error: E:\FPGA\my_demo\10.i2c_eeprom\sim\i2c_eeprom_tb.v(5): near "1": syntax error, unexpected INTEGER NUMBER, expecting class
+
+} {3.0 4.0 5.0 6.0} {}} E:/FPGA/my_demo/10.i2c_eeprom/sim/24AA02.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/sim/24AA02.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module M24AA02
+
+Top level modules:
+	M24AA02
+
+} {} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v {0 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(70): Cannot find `include file "timescale.v" in directories:
+    D:/modeltech64_10.1c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, D:/modeltech64_10.1c/uvm-1.1b/../verilog_src/uvm-1.1b/src
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(73): Cannot find `include file "i2c_master_defines.v" in directories:
+    D:/modeltech64_10.1c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, D:/modeltech64_10.1c/uvm-1.1b/../verilog_src/uvm-1.1b/src
+-- Compiling module i2c_master_byte_ctrl
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(199): (vlog-2163) Macro `I2C_CMD_NOP is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(199): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(209): (vlog-2163) Macro `I2C_CMD_NOP is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(209): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(232): (vlog-2163) Macro `I2C_CMD_START is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(232): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(237): (vlog-2163) Macro `I2C_CMD_READ is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(237): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(242): (vlog-2163) Macro `I2C_CMD_WRITE is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(242): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(247): (vlog-2163) Macro `I2C_CMD_STOP is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(247): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(258): (vlog-2163) Macro `I2C_CMD_READ is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(258): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(263): (vlog-2163) Macro `I2C_CMD_WRITE is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(263): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(273): (vlog-2163) Macro `I2C_CMD_READ is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(273): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(278): (vlog-2163) Macro `I2C_CMD_WRITE is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(278): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(290): (vlog-2163) Macro `I2C_CMD_WRITE is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(290): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(295): (vlog-2163) Macro `I2C_CMD_READ is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(295): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(307): (vlog-2163) Macro `I2C_CMD_STOP is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(307): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(312): (vlog-2163) Macro `I2C_CMD_NOP is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(312): near ";": syntax error, unexpected ';'
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(326): (vlog-2163) Macro `I2C_CMD_NOP is undefined.
+
+** Error: E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_master/i2c_master_byte_ctrl.v(326): near ";": syntax error, unexpected ';'
+
+} {3.0 4.0 5.0 6.0 8.0 9.0 10.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 27.0 28.0 30.0 31.0 33.0 34.0 36.0 37.0 39.0 40.0 42.0 43.0 45.0 46.0 48.0 49.0 51.0 52.0 53.0} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/seg_decoder.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/seg_decoder.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module seg_decoder
+
+Top level modules:
+	seg_decoder
+
+} {} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_eeprom_test.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/i2c_eeprom_test.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module i2c_eeprom_test
+
+Top level modules:
+	i2c_eeprom_test
+
+} {} {}} E:/FPGA/my_demo/10.i2c_eeprom/src/ax_debounce.v {1 {vlog -work work -vopt E:/FPGA/my_demo/10.i2c_eeprom/src/ax_debounce.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ax_bounce
+
+Top level modules:
+	ax_bounce
+
+} {} {}}

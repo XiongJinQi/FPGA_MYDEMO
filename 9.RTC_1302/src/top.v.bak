@@ -1,0 +1,20 @@
+////////////////////////
+module top(
+	input 	clk,
+	input 	rst_n,
+	output[5:0]	seg_sel,
+	output[7:0]	seg_data,
+	inout		rtc_data,
+	output	rtc_ce,
+	output	rtc_clk,
+);
+
+wire[7:0]		read_second;
+wire[7:0]		read_minute;
+
+
+
+
+
+endmodule
+

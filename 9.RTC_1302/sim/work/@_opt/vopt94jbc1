@@ -1,0 +1,174 @@
+m255
+K3
+13
+cModel Technology
+dE:\FPGA\cyclone_projects\7.bottom_pwm_test
+T_opt
+V;dReQeXjGM<3H9>;YfgOz0
+04 2 4 work tb fast 0
+=1-80fa5b5f1f7d-5c813f24-167-34b8
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1c;51
+vds1302
+!s100 k^b<fN2RN=P3FG]:_n@bO1
+I3Z>z<aE?dEoVkJoU<f5Fj2
+VU@>MW5KBJ000HacJ_TdQ42
+Z0 dE:\FPGA\cyclone_projects\9.RTC_1302\sim
+w1551971887
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302.v
+L0 3
+Z1 OL;L;10.1c;51
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302.v|
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s108 1551974156.567000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302.v|
+!i10b 1
+!s85 0
+vds1302_io
+!s100 @lCQz@?FT>jCnZ@MmLCTD1
+I];MX<NEAAzH@I6zZHa04n1
+Vnf^P9H6Z5C0Y=G:hZa`Kn1
+Z3 dE:\FPGA\cyclone_projects\9.RTC_1302\sim
+w1551969984
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_io.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_io.v
+L0 3
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_io.v|
+R2
+!s108 1551974156.678000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_io.v|
+!i10b 1
+!s85 0
+vds1302_test
+!s100 c3V^K6V4e3W7;AGJ9@BW61
+I7P^EIlZ]SN^MU^QAHI4IH3
+Vl4J_GD3Pl>T=f1;eezY7T1
+R3
+w1551970746
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_test.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_test.v
+L0 3
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_test.v|
+R2
+!s108 1551974156.801000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/ds1302_test.v|
+!i10b 1
+!s85 0
+vseg_bcd
+!s100 N]l3LiOz`b00lcFWM@Y@e1
+ImdH=S2>AF7hO;e6mLL2=U3
+VH8CzY;4a[c1`H>>RVJH0c2
+R3
+w1551885088
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_bcd.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/seg_bcd.v
+L0 3
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_bcd.v|
+R2
+!s108 1551974156.917000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_bcd.v|
+!i10b 1
+!s85 0
+vseg_decoder
+!s100 zhR=TK=k@W[?ZXB9l2>iH3
+IQIhmGh_<ZE`mN;6kDK@cF2
+V6kbM=CZ9I?F7ggGK>kC<z1
+R3
+w1551880905
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_decoder.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/seg_decoder.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_decoder.v|
+R2
+!s108 1551974157.033000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_decoder.v|
+!i10b 1
+!s85 0
+vseg_scan
+!s100 Wzc8j7jfR;HZ[8f1Sl_FI0
+I5iRCboNzK=Se8h[_JalUK0
+Vf2J4l8Dhbm4DnW8VZeljm2
+R3
+w1551972857
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_scan.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/seg_scan.v
+L0 2
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_scan.v|
+R2
+!s108 1551974157.149000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/seg_scan.v|
+!i10b 1
+!s85 0
+vspi_master
+!s100 _fIcLSMJhRj5E_0hQ^]:10
+Ih1G]Pa3]g6?<:n`lIc;lg0
+VWf^7dl1]m1K8WOWPPi7Ln1
+R3
+w1551968801
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/spi_master.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/spi_master.v
+L0 3
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/spi_master.v|
+R2
+!i10b 1
+!s85 0
+!s108 1551974157.268000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/spi_master.v|
+vtb
+!s100 ^7kFG[B4^3LMIN6;zMnZb0
+I:a?n3158ViFXCH>61??Q:0
+VZaDKd0?FiU2T^d_4FI:kb3
+R3
+w1551974139
+8E:/FPGA/cyclone_projects/9.RTC_1302/sim/tb.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/sim/tb.v
+L0 3
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/sim/tb.v|
+R2
+!s108 1551974156.182000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/sim/tb.v|
+!i10b 1
+!s85 0
+vtop
+!s100 Jzf5b=;EGXzHOdXCfGHYc2
+IS[Wm;c4KcH@n990g[jjS82
+VN<4`Aj6FQ9SO9=aFgWR6=2
+R3
+w1551968186
+8E:/FPGA/cyclone_projects/9.RTC_1302/src/top.v
+FE:/FPGA/cyclone_projects/9.RTC_1302/src/top.v
+L0 2
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/FPGA/cyclone_projects/9.RTC_1302/src/top.v|
+R2
+!s108 1551974156.387000
+!s107 E:/FPGA/cyclone_projects/9.RTC_1302/src/top.v|
+!i10b 1
+!s85 0

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at uart_rx.v(91): always construct contains both blocking and non-blocking assignments File: E:/FPGA/cyclone_projects/4.uart/uart_rx.v Line: 91
+Warning (10268): Verilog HDL information at uart_rx.v(122): always construct contains both blocking and non-blocking assignments File: E:/FPGA/cyclone_projects/4.uart/uart_rx.v Line: 122

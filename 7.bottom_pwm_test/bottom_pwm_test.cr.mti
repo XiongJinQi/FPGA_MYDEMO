@@ -1,0 +1,29 @@
+E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/bottom_pwm_test.v {1 {vlog -work key_pwm -vopt E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/bottom_pwm_test.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module bottom_pwm_test
+
+Top level modules:
+	bottom_pwm_test
+
+} {} {}} E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/pwm.v {1 {vlog -work key_pwm -vopt E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/pwm.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pwm
+
+Top level modules:
+	pwm
+
+} {} {}} E:/FPGA/cyclone_projects/7.bottom_pwm_test/sim/bottom_pwm_test_tb.v {1 {vlog -work key_pwm -vopt E:/FPGA/cyclone_projects/7.bottom_pwm_test/sim/bottom_pwm_test_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module buzzer_pwm_test_tb
+
+Top level modules:
+	buzzer_pwm_test_tb
+
+} {} {}} E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/key_debounce.v {1 {vlog -work key_pwm -vopt E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/key_debounce.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module key_debounce
+
+Top level modules:
+	key_debounce
+
+} {} {}}

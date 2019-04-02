@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at bottom_pwm_test.v(14): object "buzzer" differs only in case from object "BUZZER" in the same scope File: E:/FPGA/cyclone_projects/7.bottom_pwm_test/src/bottom_pwm_test.v Line: 14

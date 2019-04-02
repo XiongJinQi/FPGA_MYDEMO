@@ -1,0 +1,14 @@
+//led test
+`timescal 1ns/1ns
+module led_test
+{
+	input clk;
+	input rst_led;
+	output reg[3:0] led;
+	
+};
+
+// 定义一个计数器
+reg [31:0] timecounter;
+
+always(poseage clk)

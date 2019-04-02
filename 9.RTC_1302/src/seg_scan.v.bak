@@ -1,0 +1,71 @@
+///////////////////////////
+module seg_scan(
+    input           clk,
+    input           rst,
+    output reg[5:0]     seg_sel,
+    output reg[7:0]     seg_data,
+    input[7:0]      seg_data_0,
+    input[7:0]      seg_data_1,
+    input[7:0]      seg_data_2,
+    input[7:0]      seg_data_3,
+    input[7:0]      seg_data_4,
+    input[7:0]      seg_data_5,
+);
+parameter SCAN_FREQ = 200;
+parameter SYSCLK = 50_000_000;
+parameter SCAN_COUNT = SYSCLK/(SCAN_FREQ*6) - 1;
+
+reg[31:0]   scan_time;
+reg[3:0]    seg_sel;
+
+always @(posedge clk or posedge rst) begin
+    if(rst)
+    begin
+        scan_time <= 32'b0;
+        seg_sel <= 4'b0;
+    end
+    else if(scan_time == SCAN_COUNT)
+    begin
+        scan_time <= 32'b0;
+        if(seg_sel == 4'd5)
+            seg_sel <= 4'd0;
+        else
+            seg_sel <= 4'b1;
+    end
+    else
+        scan_time <= scan_time + 32'b1;
+end
+
+always @(posedge clk or posedge rst) begin
+    if(rst)
+    begin
+        seg_sel <= 4'b0;
+        scan_time <= 32'b0; 
+    end
+    else
+    begin
+        case (seg_sel)
+        4'd0:
+            seg_sel <= 6'b11_1110;
+            seg_data <= seg_data_0;
+        4'd1:
+            seg_sel <= 6'b11_1101;
+            seg_data <= seg_data_1;
+        4'd2:
+            seg_sel <= 6'b11_1011;
+            seg_data <= seg_data_2;   
+        4'd3:
+            seg_sel <= 6'b11_0111;
+            seg_data <= seg_data_3;
+        4'd4:
+            seg_sel <= 6'b10_1111;
+            seg_data <= seg_data_4;
+        4'd5:
+            seg_sel <= 6'b01_1111;
+            seg_data <= seg_data_5;
+          default: 
+        endcase
+    end
+end
+
+endmodule
